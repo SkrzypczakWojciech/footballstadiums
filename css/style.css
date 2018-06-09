@@ -35,24 +35,16 @@ body { font-family: sans-serif; }
 	background-image: url(http://farm3.static.flickr.com/2061/3530076239_264f4e357a_o.jpg);
 	background-size:cover;
 }
-
 .style2 {
-	background-size:cover;
-	background-image: url(https://d1bvpoagx8hqbg.cloudfront.net/originals/27-best-football-stadiums-europe-ad5f4bca798e809025754201df05891d.jpg)
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/1c/Pano_stadion.jpg);
+    background-size:cover;
 }
 .style3 {
-	background-image: url(https://image.redbull.com/rbcom/052/2017-09-10/57559e5e-a1d4-4acf-bb2e-cfc21247eabc/0012/0/109/0/909/1600/1050/1/marina-bay-stadium-singapore.jpg);
-	background-size:cover;
-}
-.font {
-font-family: 'Anton', sans-serif;
+  background-image: url(https://image.redbull.com/rbcom/052/2017-09-10/57559e5e-a1d4-4acf-bb2e-cfc21247eabc/0012/0/109/0/909/1600/1050/1/marina-bay-stadium-singapore.jpg);
+    background-size:cover;
 }
 .font2 {
-font-family: 'Anton', sans-serif;
-font-size:60px;
-color:white;
-}
-header {
-  text-align:center;
-  background-color:#CCC;
+  font-family:'Anton';
+  font-size:30px;
+  color:white;
 }
