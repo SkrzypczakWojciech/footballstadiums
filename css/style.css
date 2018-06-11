@@ -60,3 +60,8 @@ body { font-family: sans-serif; }
   background-image: url(https://www.bethq.com/sites/default/files/uploads/01-wembley-stadium.jpg);
   background-size:cover;
 }
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+ }
