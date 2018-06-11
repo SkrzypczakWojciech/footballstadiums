@@ -1,23 +1,24 @@
-// external js: flickity.pkgd.js
 
-'use strict';
-(function(){ 
+var kordy = [
+{
+	Name:'Poznan',
+	Kordy:'{lat: 52.406374, lng: 16.925168}'
+	
+},
+{
+	Name:'uluru',
+	Kordy:'{lat: -25.344, lng: 131.036}'
+}
+]
+var uluru = {lat: -25.344, lng: 131.036};
 
-		var uluru = {lat: -25.363, lng: 131.044};
+window.initMap = function() {
 
-		var map = new google.maps.Map(document.getElementById('map'), {
-			zoom: 4,
-			center: uluru
-		});
-
-		var marker = new google.maps.Marker({
-			position: uluru,
-			map: map
-		}); 
-	}	
-	 
-})();  
-
+  var map = new google.maps.Map(
+  document.getElementById('map'), {zoom: 4, center: uluru});
+  var marker = new google.maps.Marker({position: kordy[1].Kordy, map: map});
+  
+};
 
 (function(){ 
 	
