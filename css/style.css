@@ -48,3 +48,15 @@ body { font-family: sans-serif; }
 .flickity-page-dots {
   bottom: -40px;
 }
+.style1 {
+  background-image: url(https://statics.sportskeeda.com/wp-content/uploads/2016/08/donbass-arena-1471952484-800.jpg);
+  background-size:cover;
+  }
+.style2 {
+  background-image: url(https://d1bvpoagx8hqbg.cloudfront.net/originals/27-best-football-stadiums-europe-ad5f4bca798e809025754201df05891d.jpg);
+  background-size:cover;
+}
+.style3 {
+  background-image: url(https://www.bethq.com/sites/default/files/uploads/01-wembley-stadium.jpg);
+  background-size:cover;
+}
