@@ -1,4 +1,17 @@
 // external js: flickity.pkgd.js
+(function(){ 
+	
+	var templateItem = document.getElementById('template').innerHTML;
+	Mustache.parse(templateItem);
+	var listItems = '';
+		for(var i = 0; i < Data.length; i++){
+		console.log(Data);
+		listItems += Mustache.render(templateItem, Data[i]);
+	}
+		var results = document.getElementById('results');
+	
+		results.insertAdjacentHTML('beforeend', listItems);
+	});
 
 var flkty = new Flickity('.carousel');
 
@@ -7,7 +20,7 @@ var buttons = buttonGroup.querySelectorAll('.button');
 buttons = fizzyUIUtils.makeArray( buttons );
 
 buttonGroup.addEventListener( 'click', function( event ) {
-  // filter for button clicks
+
   if ( !matchesSelector( event.target, '.button' ) ) {
     return;
   }

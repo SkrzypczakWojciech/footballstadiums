@@ -10,17 +10,39 @@
 		<h1 class="font">FOOTBALL STADIUMS</h1>
 	</header>
 </div>
+<script>
+var Data = [
+	{
+		description: '<div class="carousel-cell style1"></div>', 
+	    txt: 'stadion ....'
+	},
+	{
+		description: '<div class="carousel-cell style2"></div>',
+		 txt: 'stadion ...'
+	},
+	{
+		description: '<div class="carousel-cell style2"></div>',
+		  txt: 'stadion ...'
+	}
+];
+</script>
+
+<script id="template" type="x-tmpl-mustache">
+{{{ description }}}
+</script>
 
 <div class="carousel">
-  <div class="carousel-cell style1"></div>
-  <div class="carousel-cell style2"></div>
-  <div class="carousel-cell style3"></div>
+		<div class="carousel-cell style1"></div>
+ 		<div class="carousel-cell style2"></div>
+  		<div class="carousel-cell style3"></div>
 </div>
+<div id="results"> BLABLA</div>
 <div class="button-group">
 	<button class="button">x</button>
 </div>	
 <div class="progress-bar"></div>
 <script src="vendor/flickity.pkgd.js"></script>
+<script src="vendor/mustache.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
