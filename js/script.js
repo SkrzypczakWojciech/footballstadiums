@@ -1,11 +1,11 @@
 var coords = [{
         name: 'Poznan',
-        kordy: '{lat: 52.406374, lng: 16.925168}'
+        coords: {lat: 52.406374, lng: 16.925168}
 
     },
     {
         name: 'uluru',
-        kordy: '{lat: -25.344, lng: 131.036}'
+        coords: {lat: -25.344, lng: 131.036}
     }
 ]
 var uluru = {
@@ -20,8 +20,9 @@ window.initMap = function() {
             zoom: 4,
             center: uluru
         });
+
     var marker = new google.maps.Marker({
-        position: coords[1].Kordy,
+        position: coords[1].coords,
         map: map
     });
 
