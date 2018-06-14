@@ -1,3 +1,6 @@
+var markers = []
+
+
 var coords = [{
         name: 'Poznan',
         coords: {lat: 52.406374, lng: 16.925168}
@@ -20,12 +23,13 @@ window.initMap = function() {
             zoom: 4,
             center: uluru
         });
-
+for(var i = 0; i < coords.length; i++){
     var marker = new google.maps.Marker({
-        position: coords[1].coords,
+        position: coords[i].coords,
         map: map
+        markers.push
     });
-
+}
 };
 
 (function() {
